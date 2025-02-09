@@ -1,13 +1,7 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  output: 'export',
+import type { NextConfig } from "next";
+
+const nextConfig: NextConfig = {
+  /* config options here */
 };
 
-module.exports = {
-  output: 'export',
-  distDir: 'docs', // Generate static files in the `docs/` folder
-
-  basePath: '/techv',
-  assetPrefix: '/techv',
-};
-
+export default nextConfig;
